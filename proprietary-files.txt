@@ -177,6 +177,7 @@ vendor/lib64/com.qualcomm.qti.mcx.usecase.extension.so
 vendor/lib64/libAF.so
 vendor/lib64/libFlickerDet.so
 vendor/lib64/libI420colorconvert.so
+vendor/lib64/libMegviiFacepp-0.5.2.so
 vendor/lib64/libQnnHtpStub.so
 vendor/lib64/libSNPE.so
 vendor/lib64/lib_sr_models.so
@@ -488,6 +489,7 @@ vendor/lib64/camera/plugins/com.xiaomi.plugin.supernight.so
 # Camera (sensors)
 vendor/lib64/libjpege.so
 vendor/lib64/libmctfengine_stub.so
+vendor/lib64/libmegface.so
 vendor/lib64/libmmcamera_bestats.so
 vendor/lib64/libmmcamera_cac3.so
 vendor/lib64/libmmcamera_faceproc.so
