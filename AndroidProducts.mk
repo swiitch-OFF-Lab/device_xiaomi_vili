@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2022 The LineageOS Project
+# Copyright (C) 2022 The evolution Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/lineage_vili.mk
+	$(LOCAL_DIR)/evolution_vili.mk
 
 COMMON_LUNCH_CHOICES := \
-	lineage_vili-user \
-	lineage_vili-userdebug \
-	lineage_vili-eng
+	evolution_vili-user \
+	evolution_vili-userdebug \
+	evolution_vili-eng
