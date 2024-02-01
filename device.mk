@@ -36,6 +36,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 # RRO Overlays
 PRODUCT_PACKAGES += \
+    ViliFrameworksAOSPAOverlay \
     ViliWifiOverlay
 
 # Soong namespaces
