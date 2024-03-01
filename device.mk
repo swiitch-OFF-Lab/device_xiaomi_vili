@@ -42,5 +42,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
 	$(LOCAL_PATH)
 
+# Swiitchoff stuffs
+$(call inherit-product, swiitchoff/stuffs/config.mk)
+
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/vili/vili-vendor.mk)
