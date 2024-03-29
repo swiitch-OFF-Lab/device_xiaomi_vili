@@ -3,13 +3,13 @@
     "repository":  "swiitch-OFF-Lab/device_xiaomi_vili",
     "target_path": "device/xiaomi/vili",
     "remote":      "github",
-    "revision":    "14.0"
+    "revision":    "evo"
   },
   {
     "repository":  "swiitch-OFF-Lab/device_xiaomi_sm8350-common",
     "target_path": "device/xiaomi/sm8350-common",
     "remote":      "github",
-    "revision":    "14.0"
+    "revision":    "evo"
   },
   {
     "repository":  "swiitch-OFF-Lab/vendor_xiaomi_vili",
@@ -24,15 +24,21 @@
     "revision":    "14.0"
   },
   {
-    "repository":  "swiitch-OFF-Lab/los-kernel_xiaomi_sm8350 ",
+    "repository":  "swiitch-OFF-Lab/los-kernel_xiaomi_sm8350",
     "target_path": "kernel/xiaomi/sm8350",
     "remote":      "github",
     "revision":    "14.0"
   },
   {
-    "repository":  "swiitchOFF Lab/proprietary_vendor_xiaomi_camera ",
+    "repository":  "swiitchOFF Lab/proprietary_vendor_xiaomi_camera",
     "target_path": "vendor/xiaomi/camera",
     "remote":      "gitlab",
     "revision":    "udc"
+  },
+  {
+    "repository":  "swiitchOFF Lab/swiitchoff_stuffs",
+    "target_path": "swiitchoff/stuffs",
+    "remote":      "github",
+    "revision":    "14.0"
   },
 ]
