@@ -32,13 +32,11 @@ ODM_MANIFEST_VILIJP_FILES := $(NFC_ESE_MANIFEST)
 TARGET_KERNEL_CONFIG += vendor/vili_QGKI.config
 
 # Kernel modules
-BOOT_KERNEL_MODULES := \
-  fts_touch_spi.ko \
-  hwid.ko \
-  msm_drm.ko \
-  xiaomi_touch.ko
-
-BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(BOOT_KERNEL_MODULES)
+BOARD_VENDOR_KERNEL_MODULES += \
+    $(KERNEL_MODULES_OUT)/fts_touch_spi.ko \
+    $(KERNEL_MODULES_OUT)/hwid.ko \
+    $(KERNEL_MODULES_OUT)/msm_drm.ko \
+    $(KERNEL_MODULES_OUT)/xiaomi_touch.ko
 
 # OTA Assert
 TARGET_OTA_ASSERT_DEVICE := vili
