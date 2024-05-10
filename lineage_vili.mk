@@ -26,9 +26,9 @@ PRODUCT_SYSTEM_NAME := vili_global
 PRODUCT_SYSTEM_DEVICE := vili
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="vili-user 14 UKQ1.231207.002 V816.0.1.0.UKDEUXM release-keys" \
+    PRIVATE_BUILD_DESC="vili-user 14 UKQ1.231207.002 V816.0.2.0.UKDMIXM release-keys" \
     TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := Xiaomi/vili/vili:14/UKQ1.231207.002/V816.0.1.0.UKDEUXM:user/release-keys
+BUILD_FINGERPRINT := Xiaomi/vili/vili:14/UKQ1.231207.002/V816.0.2.0.UKDMIXM:user/release-keys
