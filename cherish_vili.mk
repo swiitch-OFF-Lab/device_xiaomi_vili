@@ -12,13 +12,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/vili/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
+
+# Rom Specific Flags
+CHERISH_MAINTAINER := swiitchOFF
+CHERISH_CHIPSET := SM8350
+CHERISH_BATTERY := 5000mAh
 
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := vili
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := 2107113SG
-PRODUCT_NAME := lineage_vili
+PRODUCT_NAME := cherish_vili
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
